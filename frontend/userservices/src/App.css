@@ -1,0 +1,14 @@
+/* App-level utility and responsive tweaks */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .modal-content {
+    margin: 10px;
+    max-height: 94vh;
+  }
+}
